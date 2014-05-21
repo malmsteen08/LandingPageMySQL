@@ -1,0 +1,194 @@
+@charset "utf-8";
+body {
+	position: relative;
+	width: 980px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+/* CSS Document */
+
+#container {
+	position: relative;
+	height: 850px;
+	width: 990px;
+	left: 50px;
+	top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+#container #image {
+	background-color: #3333D6;
+	position: absolute;
+	height: 850px;
+	width: 380px;
+	right: 0px;
+	background-image: url(../s/img/traingles.png);
+	background-repeat: repeat;
+}
+#container #title #logo {
+	position: absolute;
+	height: 95px;
+	width: 130px;
+	left: 10px;
+	top: 10px;
+}
+
+#container #title #subtitle {
+	position: absolute;
+	height: 27px;
+	width: 460px;
+	left: 7px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #666;
+	top: 120px;
+}
+#container #title #subtitle2 {
+	position: absolute;
+	height: 115px;
+	width: 460px;
+	left: 7px;
+	top: 180px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	color: #333;
+}
+#container #text {
+	position: absolute;
+	height: 200px;
+	width: 520px;
+	left: 50px;
+	bottom: 278px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #333;
+}
+#container #image #arrow {
+	position: absolute;
+	height: 70px;
+	width: 70px;
+	top: 62px;
+	right: 155px;
+}
+#container #image #stitle {
+	position: absolute;
+	height: 156px;
+	width: 310px;
+	right: 35px;
+	top: 177px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+	font-size: 30px;
+}
+#container #image .lang {
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	right: 0px;
+	top: 0px;	
+	background-image: url(../s/img/Turkey.png);
+}
+
+#container #title {
+	position: absolute;
+	height: 290px;
+	width: 520px;
+	left: 43px;
+	top: 73px;
+}
+#container #image #txtEmail {
+	height: 40px;
+	width: 294px;
+	position: absolute;
+	right: 43px;
+	bottom: 379px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+#container #image #btnSender {
+	-moz-box-shadow: inset 0px 0px 0px 0px #f9eca0;
+	-webkit-box-shadow: inset 0px 0px 0px 0px #f9eca0;
+	box-shadow: inset 0px 0px 0px 0px #f9eca0;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0c911), color-stop(1, #f2ab1e) );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0c911', endColorstr='#f2ab1e');
+	background-color: #FFFF00;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+	text-indent: 0px;
+	display: inline-block;
+	color: #03333d;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	font-style: normal;
+	height: 50px;
+	line-height: 43px;
+	width: 300px;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 1px 0px 0px #ded17c;
+	position: absolute;
+	top: auto;
+	bottom: 302px;
+	right: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	background-position: center top;
+}
+#container #softw {
+	position: absolute;
+	height: 245px;
+	width: 529px;
+	bottom: 0px;
+	left: 46px;
+}
+#container #softw #softw1 {
+	background-image: none;
+	background-repeat: no-repeat;
+	height: 220px;
+	width: 240px;
+	bottom: 10px;
+}
+#container #softw #softw2 {
+	background-image: none;
+	position: absolute;
+	height: 220px;
+	width: 240px;
+	right: 5px;
+}
+
+
+
+#container #image #btnSender :hover {
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f2ab1e), color-stop(1, #f0c911) );
+	background: -moz-linear-gradient( center top, #f2ab1e 5%, #f0c911 100% );
+
+
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2ab1e', endColorstr='#f0c911');
+	background-color: #FFFF00;
+	position: absolute;
+	height: 50px;
+	width: 270px;
+	top: 400px;
+	right: 150px;
+}#container #image #btnSender :active {
+	position:relative;
+	top:1px;
+}
